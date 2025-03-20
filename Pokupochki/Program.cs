@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Pokupochki.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<PokupochkiContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+
 
 var app = builder.Build();
 

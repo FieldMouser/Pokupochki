@@ -1,0 +1,27 @@
+@model IEnumerable<Pokupochki.Models.Expence>
+
+<h2>Мои траты</h2>
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Описание</th>
+                <th>Сумма</th>
+                <th>Категория</th>
+                <th>Дата</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Description</td>
+                    <td>@item.Amount</td>
+                    <td>@item.Category</td>
+                    <td>@item.Date.ToString("d")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

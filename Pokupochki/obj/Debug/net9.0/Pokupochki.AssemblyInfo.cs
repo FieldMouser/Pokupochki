@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pokupochki")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0287da4ff0ebba08f53326f6d5dba616b7f96cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pokupochki")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pokupochki")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
